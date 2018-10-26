@@ -28,7 +28,7 @@ services:
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
      volumes:
-        - /share/homes/ctuxboy/.Qsync/CONTAINERS/wp1:/var/www/html
-        - /share/homes/ctuxboy/.Qsync/CONTAINERS/config1/php.ini:/usr/local/etc/php/conf.d/php.ini
+        - /share/DEV:/var/www/html
+        - /share/DEV/config/php.ini:/usr/local/etc/php/conf.d/php.ini
 volumes:
     db_data:
